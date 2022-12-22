@@ -24,7 +24,7 @@ function App() {
 
   return (<>
       <Form movieSearch={getMovie}/>
-      <MovieDisplay/>
+      <MovieDisplay movie={movie}/>
   </>);
 }
 
